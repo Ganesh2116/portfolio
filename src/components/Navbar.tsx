@@ -23,7 +23,7 @@ export default function Navbar() {
     },
     {
       name: "Projects",
-      link: "/project",
+      link: "/projects",
       icon: (
         <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
