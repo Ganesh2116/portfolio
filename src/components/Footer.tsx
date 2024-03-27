@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 flex items-center justify-center">
+    <footer className="bg-gray-900 flex items-center justify-center">
       <div className="max-w-5xl">
         <motion.div
           transition={{
