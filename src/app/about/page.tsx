@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { LampContainer } from "@/components/ui/lamp";
 import Link from "next/link";
 
-export default function LampDemo() {
+export default function page() {
   return (
     <LampContainer>
       <motion.h1
@@ -27,7 +27,7 @@ export default function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="text-center text-slate-400 pt-10 hidden sm:block"
+        className="text-center text-slate-400 pt-10 hidden sm:block text-lg"
       >
         An enthusiastic and driven individual, I possess a creative mindset and
         adaptability.

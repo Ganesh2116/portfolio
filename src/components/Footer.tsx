@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import footerImg from "@/utils/footerImg";
 
 const Footer = () => {
   return (
@@ -93,44 +94,11 @@ const Footer = () => {
             }}
           >
             <div className="flex flex-row">
-              <Link href="https://github.com/Ganesh2116" target="_blank">
-                <Image
-                  src="./github.svg"
-                  alt="linkedin"
-                  width={40}
-                  height={40}
-                />
-              </Link>
-              <Link
-                href="https://www.linkedin.com/in/ganesh-bharti-089b60228/"
-                target="_blank"
-              >
-                <Image
-                  src="./linkedin.svg"
-                  alt="linkedin"
-                  width={40}
-                  height={40}
-                />
-              </Link>
-              <Link
-                href="https://www.instagram.com/ganesh.bharti.1234/"
-                target="_blank"
-              >
-                <Image
-                  src="./instagram.svg"
-                  alt="linkedin"
-                  width={40}
-                  height={40}
-                />
-              </Link>
-              <Link href="" target="_blank">
-                <Image
-                  src="./twitter.svg"
-                  alt="linkedin"
-                  width={40}
-                  height={40}
-                />
-              </Link>
+              {footerImg.map((item, index) => (
+                <Link href={item.link || ""} key={index} target="_blank">
+                  <Image src={item.src} alt={item.alt} width={40} height={40} />
+                </Link>
+              ))}
             </div>
           </motion.div>
         </div>

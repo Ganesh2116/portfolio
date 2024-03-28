@@ -18,8 +18,8 @@ export default function page() {
           Contact Me
         </h1>
         <p className="text-slate-400 p-4 text-base text-center">
-          I'm always open to new projects, collaborations, or employment
-          <span className="inline-block">opportunities. Let's connect!</span>
+          I am always open to new projects, collaborations, or employment
+          <span className="inline-block">opportunities. Lets connect!</span>
         </p>
       </div>
       {/* contact form */}
@@ -70,10 +70,10 @@ export default function page() {
               Support Me.
             </h1>
             <p className="text-slate-400 sm:text-start p-4 text-base text-center">
-              Your support means the world to me! With your help, I'll create
+              Your support means the world to me! With your help, I will create
               even more incredible
               <span className="inline-block">
-                projects that inspire and uplift others. Together, we'll turn
+                projects that inspire and uplift others. Together, we will turn
                 dreams into reality.
               </span>
             </p>
@@ -93,7 +93,7 @@ export default function page() {
               Hire Me.
             </h1>
             <p className="text-slate-400 sm:text-start p-4 text-base text-center">
-              If my work resonates with you, I'm open to collaborations and
+              If my work resonates with you, I am open to collaborations and
               opportunities.
               <span className="inline-block">
                 Feel free to reach out for potential projects!
