@@ -39,7 +39,7 @@ const skillsImg = [
   },
   {
     title:"Vite",
-    src:"/vite.jpeg",
+    src:"/vite.png",
   }
 
 ]
