@@ -1,32 +1,27 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
-import { TextRevealCard } from "./ui/text-reveal-card";
+import Photo from "./Photo";
 
 const HomeSection = () => {
   return (
-    <>
+    <div className="flex flex-col">
+      <div className="text-2xl font-semibold xl:px-16 pt-4 flex justify-center md:px-12 md:justify-start lg:px-20">
+        Ganu
+        <span className="text-sky-400 text-4xl">.</span>
+      </div>
       <main className="flex items-center justify-center gap-8 md:h-screen flex-col md:flex-row ">
-        <div className="pt-4 px-8 md:px-0 md:pt-0">
-          <Image
-            src="/projects/bharti-gkb.png"
-            alt="bharti logo"
-            width={600}
-            height={600}
-            className="rounded-b-full "
-          />
-        </div>
         <div className="text-center px-4 md:text-start">
-          <p className="text-slate-400 text-lg">Hi,my name is</p>
-          <h1 className="text-5xl font-semibold text-blue-600 pt-4">
+          <p className="text-slate-400  text-base font-light">
+            Software Developer
+          </p>
+          <p className="text-5xl font-semibold text-white pt-4">
+            Hello I'm <br />
+          </p>
+          <p className="text-sky-400 text-5xl font-semibold mt-3 ">
             Ganesh Bharti
-          </h1>
-          <TextRevealCard
-            text="Fornend Developer"
-            revealText="Backend Developer"
-            className="hidden md:block"
-          />
+          </p>
+
           <p className="text-slate-400 text-lg pt-4">
             I am a web developer with a passion for front end development and
             <br />
@@ -49,8 +44,11 @@ const HomeSection = () => {
             </button>
           </div>
         </div>
+        <div className="pt-4 px-8 md:px-0 md:pt-0">
+          <Photo />
+        </div>
       </main>
-    </>
+    </div>
   );
 };
 export default HomeSection;
