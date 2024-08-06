@@ -16,7 +16,7 @@ const HomeSection = () => {
             Software Developer
           </p>
           <p className="text-5xl font-semibold text-white pt-4">
-            Hello I'm <br />
+            Hello Im <br />
           </p>
           <p className="text-sky-400 text-5xl font-semibold mt-3 ">
             Ganesh Bharti
